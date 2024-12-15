@@ -276,7 +276,7 @@ section{
 .home-sci a:hover::before{
     width: 100%;
 }
-.home-imgHover {
+.home-imghover {
     position: absolute;
     top: 0;
     right: 0;
@@ -287,7 +287,7 @@ section{
     opacity: .5;
 }
 
-.home-imgHover:hover{
+.home-imghover:hover{
     background: var(--bg-color);
     opacity: .7;
     transition: 1s;
