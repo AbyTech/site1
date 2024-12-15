@@ -62,4 +62,45 @@ form.addEventListener('submit', (e) => {
 
   window.location.href = mailToLink;
 });
+
+
+
+
+
+
+
+
+// Scroll Reveal Animations
+ScrollReveal({ 
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
+
+// Home section animations
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
+
+// Services section animations with cascade effect
+ScrollReveal().reveal('.services-box', { 
+    origin: 'bottom',
+    interval: 200 
+});
+
+// Portfolio items with stagger effect
+ScrollReveal().reveal('.portfolio-box', { 
+    origin: 'left',
+    interval: 300,
+    distance: '100px' 
+});
+
+// Contact form elements with fade in
+ScrollReveal().reveal('.contact form .input-box', { 
+    origin: 'right',
+    interval: 100 
+});
+
 // let selectins = document.querySelectorAll
